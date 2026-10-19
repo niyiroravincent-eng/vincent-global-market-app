@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincent Global Market</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f7fc;
+      color: #172554;
+    }
+    header {
+      background: #123b73;
+      color: white;
+      padding: 22px 15px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { margin-bottom: 0; }
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #123b73;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 55px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #dbeafe, #ffffff);
+    }
+    .hero h2 { font-size: 32px; }
+    .hero p { font-size: 18px; line-height: 1.6; }
+    .button {
+      display: inline-block;
+      background: #123b73;
+      color: white;
+      padding: 13px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+    .categories {
+      padding: 25px 15px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+      max-width: 900px;
+      margin: 20px auto;
+    }
+    .card {
+      background: white;
+      padding: 22px 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #00000012;
+    }
+    footer {
+      background: #123b73;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VINCENT GLOBAL MARKET</h1>
+    <p>One World. One Marketplace.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Welcome to Our Global Marketplace</h2>
+    <p>Discover products and services.<br>
+    Connect buyers and sellers around the world.</p>
+    <a class="button" href="#categories">Explore Categories</a>
+  </section>
+
+  <section class="categories" id="categories">
+    <h2>Shop by Category</h2>
+    <div class="grid">
+      <div class="card">📱 Electronics</div>
+      <div class="card">👕 Fashion</div>
+      <div class="card">🥗 Food & Drinks</div>
+      <div class="card">🏠 Home & Living</div>
+      <div class="card">🚗 Transport</div>
+      <div class="card">🏨 Hotels & Travel</div>
+      <div class="card">💼 Services</div>
+      <div class="card">🌍 Other Products</div>
+    </div>
+  </section>
+
+  <section class="categories" id="about">
+    <h2>About Us</h2>
+    <p>Our goal is to connect buyers and sellers worldwide.</p>
+    <p>Payment services will be added after the necessary integrations and approvals.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Vincent Global Market</p>
+    <p>Built for a connected world.</p>
+  </footer>
+</body>
+</html>
